@@ -1,0 +1,20 @@
+@charset "utf-8";
+body, div, h1, h2, h3, h4, h5, h6, p, td, tr, form, ul, ol, li, dl, dt, dd, input, button, textarea, figure{margin:0;padding:0;}
+table,
+caption, tr, td, th{margin:0;padding:0;border-spacing:0;border-collapse:collapse;}
+h1, h2, h3, h4, h5, h6{font-size:100%;font-weight:normal;}
+fieldset, img{border:none;}
+ul, ol, li{list-style:none;vertical-align:bottom;}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{text-decoration:none;outline:none;-moz-outline:none;}
+i{font-style:normal;}
+/*general*/
+body{color:#666;font:12px/1.7 'Microsoft YaHei',Arial,simsun,sans-serif;}
+a{color:#666;background-color:transparent;}
+a:hover{color:#f35c3e;}
+input{outline:none;}
+input[type='text'],
+input[type='password']{height:18px;font: 12px/1.7 Arial,'Microsoft YaHei',simsun,sans-serif;}

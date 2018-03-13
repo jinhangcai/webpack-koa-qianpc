@@ -1,0 +1,22 @@
+<section class="loginbar">
+    <div class="mid clearfix">
+        <h3 class="no_txt">快速导航</h3>
+        <div class="contact clearfix">
+            <div class="service">客服电话： <span class="tel">400-0455-360(9:00 - 18:00)</span></div>
+            <ul class="follow clearfix">
+                <li><a class="ico_wb" href="http://weibo.com/234182119/home?wvr=5" target="_blank" title="关注钱庄网微博"></a></li>
+                <li><a class="ico_wx" href="javascript:;" title="扫一扫关注微信"><figure><em></em></figure></a></li>
+                <li class="group f_l">理财交流群：<a href="http://shang.qq.com/wpa/qunwpa?idkey=6fe8e486c130e9c5638b5aae986cf3063500d4217f711bb305ea6bb88271eed5" title="立即加入钱庄网投资客户交流群">236613404</a></li>
+            </ul>
+        </div>
+        <div class="login">
+            <% if(userData && userData.login && userData.phone){ %>
+                <a href="/accountBorrow/"><%= userData.phone %></a>
+                <a class="logout-btn" title="安全退出" href="/accountBorrow/logout">[退出]</a>
+                <input id="roleType" type="hidden" value="<%= userData.roleType %>">
+            <% }else{ %>
+                <a href="/accountBorrow/login" title="立即登录">登录</a>
+            <% } %>
+        </div>
+    </div>
+</section>

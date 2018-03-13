@@ -1,0 +1,263 @@
+.bd {
+  min-height: 550px;
+  background-color: #f8f8f8; }
+
+.bd .main {
+  padding: 66px 0 70px;
+  position: relative;
+  margin-left: 68px; }
+
+.main .login_tit {
+  padding: 0 38px 0 40px;
+  text-align: right; }
+
+.main .login_tit h2 {
+  float: left;
+  font: normal 20px/80px Arial,"Microsoft YaHei",simsun,sans-serif;
+  color: #333; }
+
+.main .login_tit span {
+  font-size: 14px;
+  line-height: 55px;
+  vertical-align: bottom;
+  color: #888; }
+
+.main .login_tit span a {
+  color: #005ea7; }
+
+.main .login_tit span a:hover {
+  color: #dd4040; }
+
+.img_con {
+  width: 530px;
+  height: 420px; }
+
+.img_con img {
+  max-width: 530px;
+  max-height: 420px; }
+
+.login_con {
+  float: right;
+  position: relative;
+  width: 380px;
+  min-height: 420px;
+  border: 1px solid #ededed;
+  background-color: #fff;
+  border-radius: 5px; }
+
+.login_con .row {
+  margin: 0 38px 0 40px;
+  position: relative;
+  line-height: 30px;
+  padding-bottom: 16px; }
+
+.login_con .row.btn {
+  padding-bottom: 28px;
+  text-align: right; }
+
+.login_con .text, .login_con .authcode {
+  padding: 9px 27px 9px 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 3px; }
+
+.login_con .text {
+  width: 263px;
+  background: #fff url(../image/icon/login_base.png?t=1459158226585) no-repeat -100px 100px; }
+
+.login_con .text:hover, .login_con .authcode:hover {
+  -moz-box-shadow: 0 1px 3px rgba(137, 137, 137, 0.35) inset;
+  -webkit-box-shadow: 0 1px 3px rgba(137, 137, 137, 0.35) inset;
+  box-shadow: 0 1px 3px rgba(137, 137, 137, 0.35) inset; }
+
+.login_con .text:focus, .login_con .authcode:focus {
+  border: 1px solid #7aacfe; }
+
+.login_con .text[type="password"] {
+  font: 12px/1.7 Arial,'Microsoft YaHei',simsun,sans-serif; }
+
+.login_con .authcode {
+  width: 113px; }
+
+.login_con .verify_wrap {
+  float: right;
+  width: 132px;
+  height: 36px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center; }
+
+.login_con .btn input[type="submit"], .login_con .btn .submit_btn {
+  display: inline-block;
+  width: 302px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #f35c3e;
+  border: 0 none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: Arial,'Microsoft YaHei',simsun,sans-serif;
+  cursor: pointer; }
+
+.login_con .btn a {
+  line-height: 36px; }
+
+.login_con .login_btn {
+  display: block;
+  width: 304px;
+  margin: 0 auto;
+  height: 36px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  background: url(../image/icon/login_base.png?t=1459158226585) no-repeat -26px -159px; }
+
+.login_con .login_btn:hover {
+  background-position: -26px -201px; }
+
+.login_con .info {
+  height: 29px;
+  font-size: 12px;
+  line-height: 24px;
+  color: #d6313a; }
+
+.login_con .error .text, .login_con .error .authcode {
+  border: 1px solid red; }
+
+.login_con .error .text {
+  background-position: 274px -22px; }
+
+.login_con .verify_error {
+  border: 1px solid red !important;
+  background: url(../image/icon/login_base.png?t=1459158226585) no-repeat 100px -18px; }
+
+.login_con .verify_correct {
+  border: 1px solid #7abd54 !important;
+  background: #fff url(../image/icon/login_base.png?t=1459158226585) no-repeat 102px 7px; }
+
+.login_con .correct .text {
+  background-position: 274px 7px;
+  background-color: #fff; }
+
+.login_con .correct .authcode {
+  border: 1px solid #7abd54;
+  background: #fff url(../image/icon/login_base.png?t=1459158226585) no-repeat 124px 5px; }
+
+body {
+  background-color: #6463C1; }
+
+.login_con .login {
+  margin-top: 19px; }
+
+.login_tit {
+  margin-bottom: 20px; }
+
+.verify_btn {
+  display: inline-block;
+  margin-left: 5px;
+  width: 113px;
+  height: 37px;
+  text-align: center;
+  color: #4f4f4f;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #c8c8c8; }
+
+.verify_btn {
+  background-image: linear-gradient(top, #fcfcfc, #e2e2e2); }
+
+.verify_btn:hover {
+  background-image: none;
+  background-color: #efefef; }
+
+.login_error {
+  position: absolute;
+  top: 62px;
+  left: 40px;
+  padding-left: 8px;
+  width: 292px;
+  height: 25px;
+  border: 1px solid #F69F8E;
+  line-height: 25px;
+  background-color: #fffeee;
+  color: #6f6f6f; }
+
+.login_error figure {
+  display: inline-block;
+  margin-right: 3px;
+  width: 16px;
+  height: 16px;
+  background: #fff url(../image/icon/login_base.png?t=1459158226558) no-repeat -3px -33px;
+  vertical-align: middle; }
+
+.login_error a {
+  color: #1A66B3; }
+
+.login_error a:hover {
+  color: #DD4040; }
+
+.verify_img {
+  width: 100px;
+  height: 36px;
+  vertical-align: middle; }
+
+.register_btn, .find_pass_btn {
+  font-size: 14px;
+  color: #0af; }
+
+.btn_division {
+  color: #00aaff;
+  font-size: 16px; }
+
+.bd {
+  min-height: 620px;
+  border-top: 1px solid #eee; }
+
+.footer_cut {
+  padding: 0; }
+
+.footer_login {
+  background: url(../image/u_center/i_banner/clientlogin.jpg?t=1459158226558) repeat-x;
+  width: 100%;
+  height: 216px; }
+
+.footer_login p {
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  left: 293px;
+  top: 32px;
+  line-height: 40px;
+  text-align: left; }
+
+.footer_login .mid {
+  position: relative;
+  height: 212px; }
+
+.footer_login .mid img {
+  position: absolute; }
+
+.footer_login .loginimg {
+  bottom: -4px;
+  right: 45px; }
+
+.footer_login .logincode {
+  width: 132px;
+  height: 132px;
+  bottom: 53px;
+  left: 122px;
+  background-color: #fff; }
+
+.footer_login .loginios {
+  bottom: 51px;
+  left: 292px; }
+
+.footer_login .loginandroid {
+  bottom: 51px;
+  left: 450px; }
+
+/*# sourceMappingURL=login.css.map */

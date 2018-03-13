@@ -1,0 +1,47 @@
+<section class="i-banner noon" id="i_banner" >
+    <div class="mid clearfix">
+        <div class="f_l">
+            <a class="i-banner-portrait" href="javascript:;" title="头像">
+                <img src="/accountBorrow/image/u_center/i_banner/thumb_default.png" alt="">
+            </a>
+            <div class="i-banner-main">
+                <div class="i-banner-greetings">
+                    <div class="i-banner-hello">
+                        <% if(userData && userData.login && userData.phone){ %>
+                        您好，<a href="/accountBorrow/" title="查看个人信息"><%= userData.phone %></a>
+                        <% } %>
+                        <div class="i-banner-digest">健康、财富、喜乐全都给您</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="i-banner-stat f_r">
+            <ul>
+                <li>
+                    <a onclick="App.$router.push({name: 'info'});">
+                        <figure class="grzl">
+                            <img src="/accountBorrow/image/u_center/i_banner/personal.png">
+                        </figure>
+                        <div>账户资料</div>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="App.$router.push({name: 'resetPwd'});">
+                        <figure class="dlmm">
+                            <img src="/accountBorrow/image/u_center/i_banner/key.png">
+                        </figure>
+                        <div>登录密码</div>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="App.$router.push({name: 'Group'});">
+                        <figure class="dlmm">
+                            <img src="/accountBorrow/image/u_center/i_banner/Group.png">
+                        </figure>
+                        <div>授权设置</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

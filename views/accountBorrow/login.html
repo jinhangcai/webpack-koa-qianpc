@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <% if(title){ %>
+        <%= title %>
+        <% }else{ %>
+        钱庄网—国资控股平台，让中国人轻松理财
+        <% } %>
+    </title>
+    <meta name="keywords" content="钱庄网,钱360，金融理财,互联网理财, 金融交易平台, 互联网金融平台,理财服务平台">
+    <meta name="description" content="钱庄网成立于2014年6月，定位于第三方互联网金融在线交易平台，国资企业控股，恒丰银行账户资金存管。钱庄网旨在为每一位有投资需求的用户提供安全、稳健的投资理财项目，让中国人轻松理财！凭借严格的准入制度，完善的风险保障，成就放心高效的投资理财平台。">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <%- include('../include/styles.html'); %>
+    <link rel="stylesheet" href="/accountBorrow/style/login.css">
+</head>
+<body>
+    <%- include('../include/quickNav.html'); %>
+    <%- include('../include/header.html'); %>
+
+    <section class="bd">
+        <div class="mid" id="appRoot"></div>
+    </section>
+    <footer class="footer_cut footer_login">
+        <div class="mid">
+            <img src="/accountBorrow/image/app_download/erw.png" class="logincode">
+            <img src="/accountBorrow/image/u_center/i_banner/loginimg.png" class="loginimg">
+            <p>钱庄网APP<br>投资就是这么简单</p>
+            <a href="http://itunes.apple.com/us/app/qian-zhuang-wang/id906244432?l=zh&amp;ls=1&amp;mt=8"><img src="/accountBorrow/image/u_center/i_banner/loginios.png" class="loginios"></a>
+            <a href="http://www.qian360.com/appdownload/qian.apk"><img src="/accountBorrow/image/u_center/i_banner/loginandroid.png" class="loginandroid"></a>
+        </div>
+    </footer>
+    <script src="/accountBorrow/build/js/manifest.js"></script>
+    <script src="/accountBorrow/build/js/vendor.js"></script>
+    <script src="/accountBorrow/build/js/accountBorrow/login.js"></script>
+</body>
+</html>
